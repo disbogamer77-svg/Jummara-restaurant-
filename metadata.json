@@ -1,0 +1,6 @@
+{
+  "name": "مطعم جمارة | Jumara Restaurant",
+  "description": "موقع مطعم جُمارة الفاخر - تجربة عشاء عربية معاصرة تضم قائمة طعام تفاعلية ثلاثية الأبعاد وحجز طاولات مباشر ومساعد طهي ذكي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
