@@ -39,7 +39,7 @@ export default function App() {
 
   // Sync scroll on tab change to guarantee polished layout
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo(0, 0);
   }, [activeTab]);
 
   // Sound effects simulator to trigger delightful audio response on click (using web audio synth)

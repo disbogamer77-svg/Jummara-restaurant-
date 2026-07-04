@@ -10,7 +10,7 @@ interface VisualMenuProps {
 
 export default function VisualMenu({ onAddToCart }: VisualMenuProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [searchQuery, setSearchQuery] = useState<string>(" ");
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const [addedItemId, setAddedItemId] = useState<string | null>(null);
 
   const categories = [
@@ -65,7 +65,7 @@ export default function VisualMenu({ onAddToCart }: VisualMenuProps) {
             <input
               type="text"
               placeholder="ابحث عن طبق أو مكون سرّي..."
-              value={searchQuery.trim() === "" ? "" : searchQuery}
+              value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full py-3 pr-11 pl-4 rounded-xl bg-neutral-900 border border-neutral-800 focus:border-amber-500 focus:outline-none text-sm text-neutral-200 transition-colors text-right"
             />
@@ -95,11 +95,10 @@ export default function VisualMenu({ onAddToCart }: VisualMenuProps) {
           <AnimatePresence mode="popLayout">
             {filteredItems.map((item) => (
               <motion.div
-                layout
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
-                transition={{ duration: 0.4 }}
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -12 }}
+                transition={{ duration: 0.3 }}
                 key={item.id}
                 className="bg-neutral-900/45 border border-neutral-800/80 rounded-2xl overflow-hidden hover:border-amber-500/40 transition-all duration-300 flex flex-col group hover:-translate-y-1.5 shadow-xl shadow-black/40"
               >
