@@ -12,7 +12,7 @@ export default function HeroSection({ onNavigate, isOpenNow }: HeroSectionProps)
       {/* Background Image with warm overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/images/jumara_hero_restaurant_1783178632142.jpg"
+          src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=2074"
           alt="مطعم جمارة الفاخر"
           className="w-full h-full object-cover scale-105 filter brightness-35 contrast-105"
           referrerPolicy="no-referrer"
