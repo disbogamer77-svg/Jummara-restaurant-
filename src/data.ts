@@ -8,7 +8,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "قوزي عراقي ملكي فاخر، لحم خروف بلدي مطهو ببطء شديد على نار هادئة حتى يذوب، متبل ببهارات القوزي البغدادي العريقة السبعة، يزين بورق الذهب عيار 24 النقي الصالح للأكل، ويقدم فوق تلة من الرز البسمتي المعطر بالزعفران والهيل، مع الحشو العراقي الأصيل (شعرية، كشمش، ولوز محمص).",
     price: 48000,
     category: "mains",
-    image: "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?auto=format&fit=crop&q=80&w=1000",
     rating: 4.9,
     calories: 1240,
     ingredients: ["لحم خروف بلدي عراقي", "ذهب صالح للأكل عيار 24", "حشو عراقي (شعرية وكشمش)", "لوز وفستق محمص", "بهارات القوزي البغدادية"],
@@ -29,7 +29,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "سمك الشبوط أو البني العراقي الطازج، يسقف ويشوى على الحطب (خشب أشجار المشمش والحمضيات) بالطريقة البغدادية التقليدية العريقة على نار هادئة، يدهن بصلصة جُمارة الخاصة بالعمبة البغدادية الفاخرة والتمر الهندي، ويقدم مع مخللات البصل والليمون العراقي وخبز التنور الساخن.",
     price: 39000,
     category: "mains",
-    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=1000",
     rating: 4.9,
     calories: 820,
     ingredients: ["سمك دجلة الطازج", "صلصة التمر الهندي والعمبة", "ثوم وليمون عراقي", "بهارات مسكوف خاصة", "دخان خشب المشمش"],
@@ -39,7 +39,7 @@ export const MENU_ITEMS: MenuItem[] = [
     layers: [
       { name: "تتبيلة دجلة الخاصة", description: "مزيج خفيف من التمر الهندي والليمون يعطي حموضة متوازنة", offset: -25, color: "from-orange-800 to-neutral-900" },
       { name: "اللحم الأبيض المشوي على الحطب", description: "دهن السمك اللذيذ يذوب برائحة حطب الحمضيات", offset: 0, color: "from-amber-600 to-yellow-500" },
-      { name: "البصل والمخللات والليمون البصرة", description: "إضافات تقليدية تضفي على المسكوف نكهته الأصيلة كاملة", offset: 25, color: "from-yellow-500 to-yellow-600" }
+      { name: "البصل والمخللات والليمون البصرة", description: "إضافات تقليدية تضفي على المسكوف نكهته الأصيلة كاملة", offset: 25, color: "from-yellow-50 to-yellow-600" }
     ]
   },
   {
@@ -49,7 +49,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "كبة الموصل التراثية الرقيقة والعملاقة، مصنوعة من جريش القمح الفاخر ولحم الغنم المفروم يدوياً، محشوة باللحم والبصل المكرمل ولوز صنوبري، مضاف إليها خلطة 'الجمأ' (الكمأ الصحراوي العراقي الفاخر) ذو النكهة الأرضية المذهلة، تسلق وتقدم دافئة.",
     price: 24000,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=1000",
     rating: 4.8,
     calories: 540,
     ingredients: ["جريش القمح الموصلي", "لحم غنم بلدي مفروم", "الجمأ (الكمأ العراقي الصحراوي)", "بصل محمر ومكسرات", "بهارات الكبة السحرية"],
@@ -89,7 +89,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "المعجنات العراقية التراثية الأكثر شهرة (الكليجة البغدادية)، مخبوزة طازجة في فرن الحجر، محشوة بالهيل وتمر البرحي الفاخر والجوز المطحون، تقدم دافئة ومزينة برشة هيل ناعمة، إلى جانب مغرفة من 'قيمر العرب' العراقي الدسم والفاخر والعسل الطبيعي.",
     price: 14000,
     category: "desserts",
-    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1608228079905-c990a2a8c7a5?auto=format&fit=crop&q=80&w=1000",
     rating: 4.9,
     calories: 590,
     ingredients: ["طحين فاخر وسمن بلدي", "تمر البرحي الفاخر والجوز", "هيل عراقي مطحون فريش", "قيمر العرب العراقي الدسم", "عسل سدر طبيعي"],
@@ -110,7 +110,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "مشروب الضيافة العراقي التراثي المحضّر يدوياً في جُمارة. نقيع الليمون الأسود المجفف (نومي بصرة) ذو الطعم الحامض المدخن المميز، ممزوج بماء الورد الجوري العطر والماء الغازي الفوار، يعلوه النعناع الطازج ورقاقات من الذهب عيار 24 تسبح فيه بجمال ساحر ومضيء.",
     price: 9000,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1595981267035-7b04ec82a897?auto=format&fit=crop&q=80&w=1000",
     rating: 4.9,
     calories: 110,
     ingredients: ["نومي بصرة عراقي ممتاز", "ماء ورد جوري طبيعي", "ماء غازي نقي", "نعناع طازج", "رقائق ذهب برّاقة عيار 24"],
@@ -130,7 +130,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "الشاي العراقي الأصيل (المهيل والمخدر على الفحم)، محضر بأجود أنواع أوراق الشاي السيلاني، مخدر ببطء على رماد الفحم المشتعل مع حبات الهيل الهندية الفواحة، يقدم في 'استكان' زجاجي عراقي كلاسيكي على قاعدة مذهبة مع حبات من تمر البرحي العراقي الأصيل.",
     price: 6000,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=1000",
     rating: 4.8,
     calories: 10,
     ingredients: ["شاي سيلاني أصيل فاخر", "هيل هندي أخضر وفير", "مخدر على جمر الفحم الطبيعي", "تمر برحي بغدادي جانبي"],
